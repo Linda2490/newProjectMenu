@@ -15,11 +15,11 @@ body {
     content: "";
     position: fixed;
     height: 100%; width: 100%;
-    background: url(./logo.png);
+    background: url(./img4.jpg);
     z-index: -1; 
     filter: alpha(opacity=40);
     -ms-filter: "alpha(opacity=40)";    
-    -webkit-filter: blur(8px);
+    -webkit-filter: blur(5px);
     -webkit-background-size: cover; /* pour Chrome et Safari */
     -moz-background-size: cover; /* pour Firefox */
     -o-background-size: cover; /* pour Opera */
@@ -82,7 +82,7 @@ a {
   flex-direction: column;
   align-items: center;
   margin: 150px auto;
-  gap: 19px;
+  gap: 70px;
 }
 .menu {
   width: 50%;
