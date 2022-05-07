@@ -3,13 +3,34 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: 'Poppins', sans-serif;
+
 }
 body {
     overflow-x: hidden;
+    /* background-image: linear-gradient(to top right, #1b4f6d,  #091f2b);  */
+   
+    
   }
+  body:before {
+    content: "";
+    position: fixed;
+    height: 100%; width: 100%;
+    background: url(./logo.png);
+    z-index: -1; 
+    filter: alpha(opacity=40);
+    -ms-filter: "alpha(opacity=40)";    
+    -webkit-filter: blur(8px);
+    -webkit-background-size: cover; /* pour Chrome et Safari */
+    -moz-background-size: cover; /* pour Firefox */
+    -o-background-size: cover; /* pour Opera */
+    background-size: cover; /* version standardisée */
+
+}
 header {
   background-color: #0E2D3F; 
+
 } 
+
 li {
   list-style: none;
 }  
